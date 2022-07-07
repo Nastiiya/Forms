@@ -1,0 +1,232 @@
+body{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+}
+
+section.forms{
+    position: relative;
+    background-color: #F7F7F7;
+    width: 1440px;
+    height: 700px; 
+    
+}
+
+label{
+    height: 22px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    letter-spacing: -0.2px;
+    color: #545454;
+}
+
+p{ 
+    height: 18px;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: -0.1px;
+    color: #969696;
+}
+
+a:visited {
+    color: #007BFF;
+  }
+
+span{
+    height: 18px;
+    left: 53.78%;
+    right: 25.73%;
+    top: calc(50% - 18px/2 + 9px);
+    text-align: center;
+}
+
+input[name="text"]{
+    box-sizing: border-box;
+    width: 235px;
+    height: 38px;
+    border: 1px solid #E4E4E4;
+    border-radius: 6px;
+}
+
+section.Block-left{
+    position: absolute;
+    width: 570px;
+    height: 590px;
+    background-color: white;
+    border-radius: 6px;
+    left: 135px;
+    top: 55px;  
+}
+   
+input.email{
+    box-sizing: border-box;
+    width: 500px;
+    height: 38px;
+    border: 1px solid #E4E4E4;
+    border-radius: 6px;
+}
+
+select[name="country"]{
+    box-sizing: border-box;
+    width: 235px;
+    height: 38px;
+    border: 1px solid #E4E4E4;
+    border-radius: 6px;
+}
+
+h2{
+    position: absolute;
+    height: 32px;
+    left: 6.32%;
+    right: 58.77%;
+    top: calc(50% - 32px/2 - 244px);
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #1C1C1C;
+}
+
+div.name{
+    position: absolute;
+    left: 5.96%;
+    right: 51.05%;
+    top: 14.75%;
+    bottom: 73.9%;
+}
+
+div.last-name{
+    position: absolute;
+    left: 51.05%;
+    right: 5.96%;
+    top: 14.75%;
+    bottom: 73.9%;
+}
+
+div.email{
+    position: absolute;
+    left: 6.32%;
+    right: 5.96%;
+    top: 29.49%;
+    bottom: 54.92%;
+}
+
+div.button_male{
+    position: absolute;
+    left: 6.32%;
+    right: 82.81%;
+    top: 48.47%;
+    bottom: 47.8%;
+}
+
+div.button_female{
+    position: absolute;
+    left: 20.7%;
+    right: 65.61%;
+    top: 48.47%;
+    bottom: 47.8%;
+}
+
+div.location_country{
+    position: absolute;
+    left: 6.32%;
+    right: 50.7%;
+    top: 55.59%;
+    bottom: 33.05%;
+}
+
+div.location_city{
+    position: absolute;
+    left: 51.05%;
+    right: 5.96%;
+    top: 55.59%;
+    bottom: 33.05%;
+}
+
+div.button_block-1{
+    position: absolute;
+    left: 6.32%;
+    right: 5.96%;
+    top: 70.34%;
+    bottom: 23.22%;
+}
+
+button.button_block-1{
+    width: 500px;
+    height: 38px;
+    box-sizing: border-box;
+    background: #007BFF;
+    border: 1px solid #E4E4E4;
+    border-radius: 6px;
+    text-align: center;
+    color: #FFFFFF; 
+}
+
+div.Terms{
+    position: absolute;
+    width: 400px;
+    height: 36px;
+    left: 14.21%;
+    right: 13.86%;
+    top: 80.51%;
+    bottom: 13.39%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+hr.line{
+    position: absolute;
+    left: 6.32%;
+    right: 5.96%;
+    top: 90%;
+    bottom: 9.83%;
+}
+
+div.footer{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+    position: absolute;
+    height: 22px;
+    left: 34.39%;
+    right: 34.56%;
+    top: calc(50% - 22px/2 + 268px);
+    font-size: 15px;
+    line-height: 22px;
+}
+
+div.question{
+    flex: none;
+    width: 116px;
+    height: 22px;
+    font-weight: 400;
+    text-align: right;
+    letter-spacing: -0.2px;
+    color: #545454;
+    order: 0;
+    flex-grow: 0; 
+}
+
+div.log-in{
+    width: 41px;
+    height: 22px;
+    font-weight: 500;
+    letter-spacing: -0.1px;
+    color: #007BFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.first-form{
+        position: absolute;
+        z-index: -1;
+        opacity: 0;
+}
+
+
+
